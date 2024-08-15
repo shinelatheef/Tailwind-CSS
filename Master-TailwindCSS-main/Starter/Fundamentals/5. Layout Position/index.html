@@ -9,6 +9,50 @@
   </head>
   <body class="p-20">
     <!-- https://tailwindcss.com/docs/position -->
+
+    <h1 class="mb-3 underline">Position</h1>
+    <br />
+
+    <div class="relative w-1/2 h-40 bg-green-400">
+      <p>Relative</p>
+      <div class="absolute bottom-0 right-0 bg-teal-300 p-4">
+        <p>Absolute</p>
+      </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-400 mt-3">
+      <p>Relative</p>
+      <div class="absolute bottom-0 left-0 bg-teal-300 p-4">
+        <p>Absolute</p>
+      </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-400 mt-3">
+      <p>Relative</p>
+      <div class="absolute top-0 right-0 bg-teal-300 p-4">
+        <p>Absolute</p>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <br />
+
     <!-- https://tailwindcss.com/docs/display -->
+
+    <h1 class="mb-3 underline">Display</h1>
+    <div class="bg-indigo-300 p-10 mb-10 w-[600px]">
+      <span class="inline"
+        >1. This is display inline and will span normally</span
+      >
+      <span class="inline-block bg-orange-400"
+        >2. This is display inline-block and will span normally</span
+      >
+      <span class="block"
+        >3. This is display block and will move to its own line.</span
+      >
+      <span class="hidden"
+        >This is display hidden and will not display at all.</span
+      >
+    </div>
   </body>
 </html>
